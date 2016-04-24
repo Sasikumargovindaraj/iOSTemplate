@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218CEC3E1CB97CF8000A9142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC3D1CB97CF8000A9142 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC421CB97D39000A9142 /* CustomPopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC411CB97D39000A9142 /* CustomPopOverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC591CB97D4C000A9142 /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC441CB97D4C000A9142 /* ItemInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC5A1CB97D4C000A9142 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC451CB97D4C000A9142 /* UserDetails.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC5B1CB97D4C000A9142 /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC481CB97D4C000A9142 /* DatePickerController.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC5C1CB97D4C000A9142 /* DatePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC491CB97D4C000A9142 /* DatePickerController.xib */; settings = {ASSET_TAGS = (); }; };
+		218CEC5D1CB97D4C000A9142 /* FilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC4C1CB97D4C000A9142 /* FilterCell.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC5E1CB97D4C000A9142 /* FilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC4D1CB97D4C000A9142 /* FilterCell.xib */; settings = {ASSET_TAGS = (); }; };
+		218CEC5F1CB97D4C000A9142 /* FilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC4F1CB97D4C000A9142 /* FilterModel.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC601CB97D4C000A9142 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC511CB97D4C000A9142 /* FilterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC611CB97D4C000A9142 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC521CB97D4C000A9142 /* FilterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		218CEC621CB97D4C000A9142 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC551CB97D4C000A9142 /* HomeCell.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC631CB97D4C000A9142 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC561CB97D4C000A9142 /* HomeCell.xib */; settings = {ASSET_TAGS = (); }; };
+		218CEC641CB97D4C000A9142 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC571CB97D4C000A9142 /* HomeData.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC651CB97D4C000A9142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC581CB97D4C000A9142 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC7C1CB97D56000A9142 /* EGFloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC671CB97D56000A9142 /* EGFloatingTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC7D1CB97D56000A9142 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC6A1CB97D56000A9142 /* ALView+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC7E1CB97D56000A9142 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC6B1CB97D56000A9142 /* lock.png */; settings = {ASSET_TAGS = (); }; };
+		218CEC7F1CB97D56000A9142 /* mailImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 218CEC6C1CB97D56000A9142 /* mailImage.png */; settings = {ASSET_TAGS = (); }; };
+		218CEC801CB97D56000A9142 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC6E1CB97D56000A9142 /* NSArray+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC811CB97D56000A9142 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC701CB97D56000A9142 /* NSLayoutConstraint+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		218CEC821CB97D56000A9142 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC751CB97D56000A9142 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC831CB97D56000A9142 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC761CB97D56000A9142 /* ReportViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC841CB97D56000A9142 /* GetFiltersHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC781CB97D56000A9142 /* GetFiltersHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC851CB97D56000A9142 /* GetSessionEnvironmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC791CB97D56000A9142 /* GetSessionEnvironmentHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC861CB97D56000A9142 /* GetSubItemsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC7A1CB97D56000A9142 /* GetSubItemsHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		218CEC871CB97D56000A9142 /* WebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CEC7B1CB97D56000A9142 /* WebServiceHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		5EAA43291CA1A03E000823B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA43271CA1A03E000823B0 /* Main.storyboard */; };
+		5EAA432C1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA432A1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodeld */; };
+		5EAA432E1CA1A03E000823B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA432D1CA1A03E000823B0 /* Assets.xcassets */; };
+		5EAA43311CA1A03E000823B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA432F1CA1A03E000823B0 /* LaunchScreen.storyboard */; };
+		5EBD451C1CA996AF00D8968A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EBD451B1CA996AF00D8968A /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		218CEC3D1CB97CF8000A9142 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		218CEC401CB97D39000A9142 /* CustomPopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopOverViewController.h; sourceTree = "<group>"; };
+		218CEC411CB97D39000A9142 /* CustomPopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopOverViewController.m; sourceTree = "<group>"; };
+		218CEC441CB97D4C000A9142 /* ItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		218CEC451CB97D4C000A9142 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		218CEC471CB97D4C000A9142 /* DatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
+		218CEC481CB97D4C000A9142 /* DatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
+		218CEC491CB97D4C000A9142 /* DatePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerController.xib; sourceTree = "<group>"; };
+		218CEC4B1CB97D4C000A9142 /* FilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCell.h; sourceTree = "<group>"; };
+		218CEC4C1CB97D4C000A9142 /* FilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCell.m; sourceTree = "<group>"; };
+		218CEC4D1CB97D4C000A9142 /* FilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterCell.xib; sourceTree = "<group>"; };
+		218CEC4E1CB97D4C000A9142 /* FilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterModel.h; sourceTree = "<group>"; };
+		218CEC4F1CB97D4C000A9142 /* FilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterModel.m; sourceTree = "<group>"; };
+		218CEC501CB97D4C000A9142 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		218CEC511CB97D4C000A9142 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		218CEC521CB97D4C000A9142 /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		218CEC551CB97D4C000A9142 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		218CEC561CB97D4C000A9142 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		218CEC571CB97D4C000A9142 /* HomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
+		218CEC581CB97D4C000A9142 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		218CEC671CB97D56000A9142 /* EGFloatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGFloatingTextField.swift; sourceTree = "<group>"; };
+		218CEC691CB97D56000A9142 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		218CEC6A1CB97D56000A9142 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		218CEC6B1CB97D56000A9142 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		218CEC6C1CB97D56000A9142 /* mailImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailImage.png; sourceTree = "<group>"; };
+		218CEC6D1CB97D56000A9142 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		218CEC6E1CB97D56000A9142 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		218CEC6F1CB97D56000A9142 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		218CEC701CB97D56000A9142 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		218CEC711CB97D56000A9142 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		218CEC721CB97D56000A9142 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		218CEC731CB97D56000A9142 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		218CEC751CB97D56000A9142 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		218CEC761CB97D56000A9142 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		218CEC781CB97D56000A9142 /* GetFiltersHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFiltersHandler.swift; sourceTree = "<group>"; };
+		218CEC791CB97D56000A9142 /* GetSessionEnvironmentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSessionEnvironmentHandler.swift; sourceTree = "<group>"; };
+		218CEC7A1CB97D56000A9142 /* GetSubItemsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSubItemsHandler.swift; sourceTree = "<group>"; };
+		218CEC7B1CB97D56000A9142 /* WebServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
+		5E98AD0B1CA39AF2007D22D5 /* PrologisOne_iPad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrologisOne_iPad-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EAA43201CA1A03E000823B0 /* PrologisOne_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrologisOne_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAA43281CA1A03E000823B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EAA432B1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrologisOne_iPad.xcdatamodel; sourceTree = "<group>"; };
+		5EAA432D1CA1A03E000823B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EAA43301CA1A03E000823B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EAA43321CA1A03E000823B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBD451B1CA996AF00D8968A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EAA431D1CA1A03E000823B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218CEC3C1CB97CF8000A9142 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC3D1CB97CF8000A9142 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		218CEC3F1CB97D39000A9142 /* CustomPopOver */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC401CB97D39000A9142 /* CustomPopOverViewController.h */,
+				218CEC411CB97D39000A9142 /* CustomPopOverViewController.m */,
+			);
+			path = CustomPopOver;
+			sourceTree = "<group>";
+		};
+		218CEC431CB97D4C000A9142 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC441CB97D4C000A9142 /* ItemInfo.swift */,
+				218CEC451CB97D4C000A9142 /* UserDetails.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		218CEC461CB97D4C000A9142 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC471CB97D4C000A9142 /* DatePickerController.h */,
+				218CEC481CB97D4C000A9142 /* DatePickerController.m */,
+				218CEC491CB97D4C000A9142 /* DatePickerController.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		218CEC4A1CB97D4C000A9142 /* FilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC4B1CB97D4C000A9142 /* FilterCell.h */,
+				218CEC4C1CB97D4C000A9142 /* FilterCell.m */,
+				218CEC4D1CB97D4C000A9142 /* FilterCell.xib */,
+				218CEC4E1CB97D4C000A9142 /* FilterModel.h */,
+				218CEC4F1CB97D4C000A9142 /* FilterModel.m */,
+				218CEC501CB97D4C000A9142 /* FilterViewController.h */,
+				218CEC511CB97D4C000A9142 /* FilterViewController.m */,
+				218CEC521CB97D4C000A9142 /* FilterViewController.xib */,
+				218CEC531CB97D4C000A9142 /* Model */,
+			);
+			path = FilterViewController;
+			sourceTree = "<group>";
+		};
+		218CEC531CB97D4C000A9142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		218CEC541CB97D4C000A9142 /* HomeViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC551CB97D4C000A9142 /* HomeCell.swift */,
+				218CEC561CB97D4C000A9142 /* HomeCell.xib */,
+				218CEC571CB97D4C000A9142 /* HomeData.swift */,
+				218CEC581CB97D4C000A9142 /* ViewController.swift */,
+			);
+			path = HomeViewContrller;
+			sourceTree = "<group>";
+		};
+		218CEC661CB97D56000A9142 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC671CB97D56000A9142 /* EGFloatingTextField.swift */,
+				218CEC681CB97D56000A9142 /* PureLayout */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		218CEC681CB97D56000A9142 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC691CB97D56000A9142 /* ALView+PureLayout.h */,
+				218CEC6A1CB97D56000A9142 /* ALView+PureLayout.m */,
+				218CEC6B1CB97D56000A9142 /* lock.png */,
+				218CEC6C1CB97D56000A9142 /* mailImage.png */,
+				218CEC6D1CB97D56000A9142 /* NSArray+PureLayout.h */,
+				218CEC6E1CB97D56000A9142 /* NSArray+PureLayout.m */,
+				218CEC6F1CB97D56000A9142 /* NSLayoutConstraint+PureLayout.h */,
+				218CEC701CB97D56000A9142 /* NSLayoutConstraint+PureLayout.m */,
+				218CEC711CB97D56000A9142 /* PureLayout+Internal.h */,
+				218CEC721CB97D56000A9142 /* PureLayout.h */,
+				218CEC731CB97D56000A9142 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		218CEC741CB97D56000A9142 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC751CB97D56000A9142 /* LoginViewController.swift */,
+				218CEC761CB97D56000A9142 /* ReportViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		218CEC771CB97D56000A9142 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC781CB97D56000A9142 /* GetFiltersHandler.swift */,
+				218CEC791CB97D56000A9142 /* GetSessionEnvironmentHandler.swift */,
+				218CEC7A1CB97D56000A9142 /* GetSubItemsHandler.swift */,
+				218CEC7B1CB97D56000A9142 /* WebServiceHandler.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		5EAA43171CA1A03E000823B0 = {
+			isa = PBXGroup;
+			children = (
+				5EAA43221CA1A03E000823B0 /* PrologisOne_iPad */,
+				5EAA43211CA1A03E000823B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EAA43211CA1A03E000823B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EAA43201CA1A03E000823B0 /* PrologisOne_iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EAA43221CA1A03E000823B0 /* PrologisOne_iPad */ = {
+			isa = PBXGroup;
+			children = (
+				218CEC661CB97D56000A9142 /* ThirdParty */,
+				218CEC741CB97D56000A9142 /* ViewController */,
+				218CEC771CB97D56000A9142 /* Webservice */,
+				218CEC431CB97D4C000A9142 /* DataModel */,
+				218CEC461CB97D4C000A9142 /* DatePicker */,
+				218CEC4A1CB97D4C000A9142 /* FilterViewController */,
+				218CEC541CB97D4C000A9142 /* HomeViewContrller */,
+				218CEC3F1CB97D39000A9142 /* CustomPopOver */,
+				218CEC3C1CB97CF8000A9142 /* Appdelegate */,
+				5EBD451B1CA996AF00D8968A /* Settings.bundle */,
+				5EAA43271CA1A03E000823B0 /* Main.storyboard */,
+				5EAA432D1CA1A03E000823B0 /* Assets.xcassets */,
+				5EAA432F1CA1A03E000823B0 /* LaunchScreen.storyboard */,
+				5EAA43321CA1A03E000823B0 /* Info.plist */,
+				5EAA432A1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodeld */,
+				5E98AD0B1CA39AF2007D22D5 /* PrologisOne_iPad-Bridging-Header.h */,
+			);
+			path = PrologisOne_iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EAA431F1CA1A03E000823B0 /* PrologisOne_iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAA43351CA1A03E000823B0 /* Build configuration list for PBXNativeTarget "PrologisOne_iPad" */;
+			buildPhases = (
+				5EAA431C1CA1A03E000823B0 /* Sources */,
+				5EAA431D1CA1A03E000823B0 /* Frameworks */,
+				5EAA431E1CA1A03E000823B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrologisOne_iPad;
+			productName = PrologisOne_iPad;
+			productReference = 5EAA43201CA1A03E000823B0 /* PrologisOne_iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EAA43181CA1A03E000823B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Prologis;
+				TargetAttributes = {
+					5EAA431F1CA1A03E000823B0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EAA431B1CA1A03E000823B0 /* Build configuration list for PBXProject "PrologisOne_iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EAA43171CA1A03E000823B0;
+			productRefGroup = 5EAA43211CA1A03E000823B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EAA431F1CA1A03E000823B0 /* PrologisOne_iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EAA431E1CA1A03E000823B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CEC611CB97D4C000A9142 /* FilterViewController.xib in Resources */,
+				5EAA43311CA1A03E000823B0 /* LaunchScreen.storyboard in Resources */,
+				218CEC7E1CB97D56000A9142 /* lock.png in Resources */,
+				5EAA432E1CA1A03E000823B0 /* Assets.xcassets in Resources */,
+				218CEC5C1CB97D4C000A9142 /* DatePickerController.xib in Resources */,
+				218CEC5E1CB97D4C000A9142 /* FilterCell.xib in Resources */,
+				5EAA43291CA1A03E000823B0 /* Main.storyboard in Resources */,
+				218CEC631CB97D4C000A9142 /* HomeCell.xib in Resources */,
+				218CEC7F1CB97D56000A9142 /* mailImage.png in Resources */,
+				5EBD451C1CA996AF00D8968A /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EAA431C1CA1A03E000823B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CEC851CB97D56000A9142 /* GetSessionEnvironmentHandler.swift in Sources */,
+				218CEC591CB97D4C000A9142 /* ItemInfo.swift in Sources */,
+				218CEC601CB97D4C000A9142 /* FilterViewController.m in Sources */,
+				218CEC421CB97D39000A9142 /* CustomPopOverViewController.m in Sources */,
+				218CEC811CB97D56000A9142 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				218CEC7D1CB97D56000A9142 /* ALView+PureLayout.m in Sources */,
+				218CEC801CB97D56000A9142 /* NSArray+PureLayout.m in Sources */,
+				5EAA432C1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodeld in Sources */,
+				218CEC621CB97D4C000A9142 /* HomeCell.swift in Sources */,
+				218CEC861CB97D56000A9142 /* GetSubItemsHandler.swift in Sources */,
+				218CEC3E1CB97CF8000A9142 /* AppDelegate.swift in Sources */,
+				218CEC651CB97D4C000A9142 /* ViewController.swift in Sources */,
+				218CEC5D1CB97D4C000A9142 /* FilterCell.m in Sources */,
+				218CEC871CB97D56000A9142 /* WebServiceHandler.swift in Sources */,
+				218CEC5A1CB97D4C000A9142 /* UserDetails.swift in Sources */,
+				218CEC5B1CB97D4C000A9142 /* DatePickerController.m in Sources */,
+				218CEC821CB97D56000A9142 /* LoginViewController.swift in Sources */,
+				218CEC831CB97D56000A9142 /* ReportViewController.swift in Sources */,
+				218CEC7C1CB97D56000A9142 /* EGFloatingTextField.swift in Sources */,
+				218CEC5F1CB97D4C000A9142 /* FilterModel.m in Sources */,
+				218CEC641CB97D4C000A9142 /* HomeData.swift in Sources */,
+				218CEC841CB97D56000A9142 /* GetFiltersHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EAA43271CA1A03E000823B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA43281CA1A03E000823B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EAA432F1CA1A03E000823B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EAA43301CA1A03E000823B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EAA43331CA1A03E000823B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ram/Desktop/PrologisOne_iPad 2/PrologisOne_iPad/PrologisOne_iPad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EAA43341CA1A03E000823B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ram/Desktop/PrologisOne_iPad 2/PrologisOne_iPad/PrologisOne_iPad-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EAA43361CA1A03E000823B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PrologisOne_iPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prologis.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ram/Desktop/PrologisOne_iPad 2/PrologisOne_iPad/PrologisOne_iPad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EAA43371CA1A03E000823B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PrologisOne_iPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prologis.mobileapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ram/Desktop/PrologisOne_iPad 2/PrologisOne_iPad/PrologisOne_iPad-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EAA431B1CA1A03E000823B0 /* Build configuration list for PBXProject "PrologisOne_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA43331CA1A03E000823B0 /* Debug */,
+				5EAA43341CA1A03E000823B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAA43351CA1A03E000823B0 /* Build configuration list for PBXNativeTarget "PrologisOne_iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EAA43361CA1A03E000823B0 /* Debug */,
+				5EAA43371CA1A03E000823B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EAA432A1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EAA432B1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodel */,
+			);
+			currentVersion = 5EAA432B1CA1A03E000823B0 /* PrologisOne_iPad.xcdatamodel */;
+			path = PrologisOne_iPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EAA43181CA1A03E000823B0 /* Project object */;
+}
